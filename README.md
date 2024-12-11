@@ -19,10 +19,12 @@ FASTA files: human.fa, mouse.fa.
 Usage
 
 Install required packages:
+
 install.packages("crayon")
 if (!require("BiocManager")) install.packages("BiocManager")
 BiocManager::install("Biostrings")
 BiocManager::install("DECIPHER")
+
 Place align_sequences.R in the same directory as human.fa and mouse.fa.
 Run:
 source("align_sequences.R")
